@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    </head>
+    
+    <body ng-app="myApp" ng-controller="myCtrl" ng-init="initEmbed()" style="display: flex; flex-direction: column; margin: 0;">
+        <video-js id="vidjs" class="vjs-default-skin" controls style="height: 100%; width: 100%;">
+        </video-js>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/video.js@7.10.1/dist/video.min.js"
+            integrity="sha256-9HM07Of11yw3TL/m0BxP9pw08qXmG/xOTDc1d3sp2Wo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"
+            integrity="sha256-aDgMmJpvmJOhYH4j65XapL1AaCy5KGZnJyNCTEGH4rA=" crossorigin="anonymous"></script>
+        <script src="./dist/main.js"></script>
+    </body>
+</html>
